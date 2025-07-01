@@ -95,3 +95,8 @@ section {
     margin-left: 2em;
     margin-right: 2em;
 }
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
