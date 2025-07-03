@@ -1,7 +1,7 @@
 *{box-sizing: border-box;}
 
 body {
-    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'TIMES NEW ROMAN', "GEORGIA", "PALATTINO", serif;
     background-color: #ffffff;
     color: #003a01;
     margin: 0;
@@ -21,15 +21,33 @@ h1 {
 
 #wrapper {
     background-color: #f8faf9;
-    background-image: linear-gradient(to bottom, #f8faf9, #99e0bc);
+    background-image: linear-gradient(to bottom, #f8faf9, #ece5d4);
     margin: auto;
+    width: 80%;
+    border: 1px solid #003d20;
+	box-shadow: 3px 3px 3px #003d20;
 }
 
 header {
-    background-color: #60b58a;
+    background-color: #003d20;
     color: #f8faf9;
     text-align: center;
-   
+   padding-top: .5em;
+   padding-bottom: .5em;
+}
+
+header h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-family: Georgia, "Times New Roman", serif;
+}
+ 
+header p {
+    margin: 0;
+    padding-bottom: 1em;
+    padding-top: 0em;
 }
 
 header a {
@@ -53,6 +71,7 @@ nav {
     font-weight: bold;
     padding: 0;
     font-size: 120%;
+    background-color:#003d20;
 }
 
 nav ul {
@@ -73,7 +92,7 @@ nav a {
 }
 
 nav a:link {
-    color: #60b58a;
+    color: #FFFFFF;
 }
 
 nav a:visited {
@@ -81,7 +100,7 @@ nav a:visited {
 }
 
 nav a:hover {
-    color: #003a01;
+    color: #ece5d4;
 }
 
 main {
@@ -94,7 +113,40 @@ main {
 section {
     margin-left: 2em;
     margin-right: 2em;
+    text-align: left;
 }
+
+.education {
+    background-color: #003d1e54;
+    border: #FFFFFF 1px solid;
+    color:#003a01;
+    padding-top: 0;
+    padding-left: 3em;
+}
+
+.interests {
+    background-color: #ece5d4;
+    color: #003d20;
+    border: #FFFFFF 1px solid;
+    padding-top:0;
+    padding-left: 3em;
+}
+
+.space {
+   margin: .5em;
+}
+
+.education dd {
+    
+    padding: 1em;
+}
+
+.flow {
+		display: flex;
+		flex-direction: row;
+        justify-content: center;
+        align-items: center;
+	}
 
 footer {
     text-align: center;
