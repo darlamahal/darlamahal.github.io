@@ -23,7 +23,7 @@ h1 {
     background-color: #f8faf9;
     background-image: linear-gradient(to bottom, #f8faf9, #ece5d4);
     margin: auto;
-    width: 80%;
+    width: 100%;
     border: 1px solid #003d20;
 	box-shadow: 3px 3px 3px #003d20;
 }
@@ -113,7 +113,10 @@ main {
 section {
     margin-left: 2em;
     margin-right: 2em;
-    text-align: left;
+}
+
+.centertext {
+    text-align: center;
 }
 
 .education {
@@ -121,6 +124,7 @@ section {
     color:#003a01;
     background-color: #ece5d4;
     padding-left: 3em;
+    text-align: left;
 }
 
 .interests {
@@ -142,6 +146,9 @@ section {
     margin-right: 2em;
 }
 
+.evenmorespace {
+  margin-bottom: 5em;
+}
 .education dd {
     
     padding: 1em;
@@ -182,7 +189,7 @@ table {
 	border: 2px solid #00763b;
     justify-content: center;
     margin-bottom: 3em;
-    margin-left: 12em;
+    margin-left: 21em;
    
 }
 
@@ -195,6 +202,8 @@ td, th {
 td {
 	text-align: center;
 }
+
+
 
 .text {
 	text-align: left;
@@ -210,7 +219,12 @@ form {
     flex-wrap: nowrap;
 }
 
-
+video {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 
 li {
     margin-bottom: 0.8em;
@@ -220,3 +234,45 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+#project1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 1em;
+    flex-flow: nowrap;
+    gap: 1em;
+    overflow: auto;
+}
+
+#project2 {
+   display: flex;
+   justify-content: center;
+   overflow: auto;
+}
+
+#project3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   margin: 1em;
+   gap: 1em;
+    overflow: auto;
+}
+
+#project4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 1em;
+    gap: 1em;
+    overflow: auto;
+}
+
+.projectflow {
+    display: scroll;
+    flex-direction: row;
+    flex-flow: nowrap;
+    flex-wrap: nowrap;
+}
+
